@@ -11,6 +11,7 @@
 		08AF78FB2B864E9B00A0DC1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF78FA2B864E9B00A0DC1B /* ContentView.swift */; };
 		08AF78FD2B864E9C00A0DC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AF78FC2B864E9C00A0DC1B /* Assets.xcassets */; };
 		08AF79002B864E9C00A0DC1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AF78FF2B864E9C00A0DC1B /* Preview Assets.xcassets */; };
+		08AF79072B86537E00A0DC1B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF79062B86537E00A0DC1B /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		08AF78FA2B864E9B00A0DC1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08AF78FC2B864E9C00A0DC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AF78FF2B864E9C00A0DC1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08AF79062B86537E00A0DC1B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				08AF78F82B864E9B00A0DC1B /* Map_HackwichApp.swift */,
+				08AF79062B86537E00A0DC1B /* LocationManager.swift */,
 				08AF78FA2B864E9B00A0DC1B /* ContentView.swift */,
 				08AF78FC2B864E9C00A0DC1B /* Assets.xcassets */,
 				08AF78FE2B864E9C00A0DC1B /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				08AF78FB2B864E9B00A0DC1B /* ContentView.swift in Sources */,
 				08AF78F92B864E9B00A0DC1B /* Map_HackwichApp.swift in Sources */,
+				08AF79072B86537E00A0DC1B /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Map Hackwich/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Map Hackwich/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
